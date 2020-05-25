@@ -9,12 +9,25 @@
 <body>
     <nav>
         <ul>
-            <li><a class="selected" href="index.html">Home</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">My Work</a></li>
-            <li><a href="#">Contact Me</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="selected" href="about.html">About Me</a></li>
+            <li><a href="work.html">My Work</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
         </ul>
     </nav>
+    
+    <div class="hamburger-nav">
+      <ul><li class="hamburger"><img onClick="HBButton()" src="assets/img/hamburger.svg"></li></ul>
+       
+       <div id="ShowMenu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="selected" href="about.html">About Me</a></li>
+            <li><a href="work.html">My Work</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+       </div>
+    </div>
     
     <div class="header">
         <div class="header-text"><h1>This page is all about me and my background</h1></div>
@@ -24,22 +37,54 @@
     <h1 class="heading">Where it all started</h1>
     
     <div class="text-block">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor nisl id suspendisse duis. Vitae ut elementum, tortor, lacinia neque felis. Nisl, auctor vitae aliquam ullamcorper fermentum sagittis. Eleifend hac in vulputate massa.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor nisl id suspendisse duis. Vitae ut elementum, tortor, lacinia neque felis. Nisl, auctor vitae aliquam ullamcorper fermentum sagittis. Eleifend hac in vulputate massa.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor nisl id suspendisse duis. Vitae ut elementum, tortor, lacinia neque felis. Nisl, auctor vitae aliquam ullamcorper fermentum sagittis. Eleifend hac in vulputate massa.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor nisl id suspendisse duis. Vitae ut elementum, tortor, lacinia neque felis. Nisl, auctor vitae aliquam ullamcorper fermentum sagittis. Eleifend hac in vulputate massa.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mattis vel arcu nec placerat. Curabitur laoreet ultricies tellus, in congue lorem malesuada nec. Integer at pharetra augue. Vivamus odio lorem, maximus at aliquet et, euismod eu neque. Aliquam erat volutpat. Cras et metus eget justo finibus venenatis a a risus. Integer elementum vitae augue in rhoncus. Mauris commodo nunc sollicitudin magna condimentum, at dapibus lacus aliquam. Praesent eget ligula nunc. Suspendisse potenti. Aenean dictum velit vitae nibh blandit, a egestas est interdum. Phasellus id nisi et elit luctus laoreet. Aenean nec congue urna. Vivamus vestibulum, magna egestas posuere efficitur, orci eros maximus sem, sed tempor leo magna sed orci. Vivamus sit amet sapien a felis varius facilisis. Aliquam faucibus magna quis congue ullamcorper.</p>
+        <br>
+        <p>Fusce gravida dapibus arcu dictum pellentesque. Integer ornare faucibus nisl, sit amet posuere turpis fringilla vitae. Cras varius lacus lacus. Sed interdum tincidunt efficitur. Nunc efficitur blandit nibh, et lobortis nibh varius id. In lacinia tempor lacinia. Vivamus ultricies lobortis auctor. Curabitur sed arcu est. Quisque tincidunt vitae sapien vitae pellentesque. Curabitur dignissim condimentum efficitur.</p>
     </div>
     
     <h1 class="heading">Education</h1>
     
     <div class="text-block">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor nisl id suspendisse duis. Vitae ut elementum, tortor, lacinia neque felis. Nisl, auctor vitae aliquam ullamcorper fermentum sagittis. Eleifend hac in vulputate massa.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor nisl id suspendisse duis. Vitae ut elementum, tortor, lacinia neque felis. Nisl, auctor vitae aliquam ullamcorper fermentum sagittis. Eleifend hac in vulputate massa.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor nisl id suspendisse duis. Vitae ut elementum, tortor, lacinia neque felis. Nisl, auctor vitae aliquam ullamcorper fermentum sagittis. Eleifend hac in vulputate massa.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor nisl id suspendisse duis. Vitae ut elementum, tortor, lacinia neque felis. Nisl, auctor vitae aliquam ullamcorper fermentum sagittis. Eleifend hac in vulputate massa.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mattis vel arcu nec placerat. Curabitur laoreet ultricies tellus, in congue lorem malesuada nec. Integer at pharetra augue. Vivamus odio lorem, maximus at aliquet et, euismod eu neque. Aliquam erat volutpat. Cras et metus eget justo finibus venenatis a a risus. Integer elementum vitae augue in rhoncus. Mauris commodo nunc sollicitudin magna condimentum, at dapibus lacus aliquam. Praesent eget ligula nunc. Suspendisse potenti. Aenean dictum velit vitae nibh blandit, a egestas est interdum. Phasellus id nisi et elit luctus laoreet. Aenean nec congue urna. Vivamus vestibulum, magna egestas posuere efficitur, orci eros maximus sem, sed tempor leo magna sed orci. Vivamus sit amet sapien a felis varius facilisis. Aliquam faucibus magna quis congue ullamcorper.</p>
+        <br>
+        <p>Fusce gravida dapibus arcu dictum pellentesque. Integer ornare faucibus nisl, sit amet posuere turpis fringilla vitae. Cras varius lacus lacus. Sed interdum tincidunt efficitur. Nunc efficitur blandit nibh, et lobortis nibh varius id. In lacinia tempor lacinia. Vivamus ultricies lobortis auctor. Curabitur sed arcu est. Quisque tincidunt vitae sapien vitae pellentesque. Curabitur dignissim condimentum efficitur.</p>
     </div>
     
+    <h1 class="heading">Work experiance</h1>
     
+    <div class="featured-block">
+       <div class="card-group">
+        <div class="card">
+            <div id="experiance-pad" class="view-project">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor nisl id suspendisse duis. Vitae ut elementum, tortor, lacinia neque felis. Nisl, auctor vitae aliquam ullamcorper fermentum sagittis. Eleifend hac in vulputate massa.
+            </div>
+            <div class="card-desc">
+                <p>Lorum Ipsm</p>
+            </div>
+        </div>
+        
+        
+        <div class="card">
+            <div id="experiance-pad" class="view-project">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor nisl id suspendisse duis. Vitae ut elementum, tortor, lacinia neque felis. Nisl, auctor vitae aliquam ullamcorper fermentum sagittis. Eleifend hac in vulputate massa.
+            </div>
+            <div class="card-desc">
+                <p>Lorum Ipsm</p>
+            </div>
+        </div>
+        
+        
+        <div class="card">
+            <div id="experiance-pad" class="view-project">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor nisl id suspendisse duis. Vitae ut elementum, tortor, lacinia neque felis. Nisl, auctor vitae aliquam ullamcorper fermentum sagittis. Eleifend hac in vulputate massa.
+            </div>
+            <div class="card-desc">
+                <p>Lorum Ipsm</p>
+            </div>
+        </div>
+        
+    </div>
+    </div>
     
     <footer>
        <p class="footer-text">follow me on</p>
@@ -53,6 +98,16 @@
         var date = new Date();
         var year = date.getFullYear();
         document.getElementById("displaydate").innerHTML = year;
+        
+        function HBButton() {
+            var mc = document.getElementById("ShowMenu");
+            if (mc.style.display === "block") {
+                mc.style.display = "none";
+            } else {
+                mc.style.display = "block";
+            }
+        }
+        
     </script>
 </body>
 </html>
