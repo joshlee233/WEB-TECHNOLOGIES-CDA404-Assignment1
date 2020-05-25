@@ -37,6 +37,70 @@ nav ul li a:hover {
     box-shadow: inset 0 -5px 0 0 #00C2FF;
 }
 
+
+
+
+
+
+
+.hamburger-nav {
+    width:100%;
+    padding:0;
+    margin:0;
+    text-align: center;
+}
+
+.hamburger-nav ul {
+    margin:0;
+    width:100%;
+    padding:15px 15px;
+}
+
+.hamburger-nav ul li {
+    list-style-type: none;
+    display: block;
+    padding:0;
+    margin:0;
+    height:50px;
+}
+
+.hamburger-nav ul li a {
+    color: #00C2FF;
+    text-decoration: none;
+    font-weight:bold;
+    padding:10px 10px;
+    margin:0;
+    transition: 0.3s;
+}
+
+.hamburger-nav ul li a:hover {
+    box-shadow: inset 0 -5px 0 0 #00C2FF;
+}
+
+.hamburger img {
+    max-width:60px;
+    margin-right:20px;
+}
+
+.hamburger img:hover {
+    cursor: pointer;
+}
+
+.hamburger {
+    padding:10px;
+    text-align: right;
+}
+
+
+
+
+#ShowMenu {
+    display:none;
+}
+
+
+
+
 .selected {
     box-shadow: inset 0 -5px 0 0 #00C2FF;
 }
@@ -53,7 +117,7 @@ nav ul li a:hover {
     width:50%;
     text-align: center;
     padding-top:140px;
-    color:#0f0f0f;
+    color:#ffffff;
     display:inline-block;
     float:left;
 }
@@ -172,7 +236,7 @@ footer {
     width:100%;
     background-color: #00C2FF;
     display: block;
-    color:#0f0f0f;
+    color:#ffffff;
     font-size: 1.2em;
     font-weight: 600;
     text-align: center;
@@ -186,7 +250,7 @@ footer p a {
     display: table-cell;
     vertical-align: middle;
     padding:6px;
-    color:#0f0f0f;
+    color:#ffffff;
     text-decoration: none;
 }
 
@@ -212,6 +276,10 @@ footer img {
     font-size: 1.2em;
 }
 
+#experiance-pad {
+    height: calc(350px - 40px);
+    padding:20px;
+}
 
 
 
@@ -226,8 +294,41 @@ footer img {
 
 
 
+@media (min-width: 600px) {
+    .hamburger-nav {
+        display:contents;
+    }
+    
+    nav {
+        display:none;
+    }
+    
+}
 
 
+@media (min-width: 800px) {
+    .hamburger-nav {
+        display:none;
+    }
+    
+    nav {
+        display:contents;
+    }
+    
+}
+
+
+
+@media (min-width: 1160px) {
+    .hamburger-nav {
+        display:none;
+    }
+    
+    nav {
+        display:contents;
+    }
+    
+}
 
 
 
@@ -243,6 +344,13 @@ footer img {
         width:0%;
         display: none;
     }
+    
+    .header-text {
+        width:100%;
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+    }
 
     .card {
         margin:40px 0px;
@@ -255,7 +363,7 @@ footer img {
 
     .about-block {
         width:100%;
-    }    
+    }
     
 }
 
