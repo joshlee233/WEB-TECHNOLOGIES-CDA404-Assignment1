@@ -77,28 +77,26 @@ nav ul li a:hover {
 
 .about-block {
     width:60%;
-    height:250px;
     color:black;
     margin:auto;
 }
 
 .about-image {
     width:250px;
-    max-height:250px;
-    display: inline-block;
-    background-image: url("..//img/me.JPG");
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius:100%;
     height:250px;
-    background-position: center;
     float: left;
+}
+
+.about-image img {
+    height:250px;
+    border-radius:100%;
+    display: block;
 }
 
 .about-block-content {
     display: table-cell;
     vertical-align: middle;
-    width:60%;
+    width:100%;
     height: 250px;
     padding-left:50px;
 }
@@ -203,4 +201,48 @@ footer img {
 
 .footer-text {
     padding:20px;
+}
+
+
+@media (max-width: 800px) {
+    .about-block-content p {
+        font-size: 1.2em;
+        padding:20px;
+    }
+
+    .header-graphic {
+        width:0%;
+        display: none;
+    }
+
+    .card {
+        margin:40px 0px;
+    }
+
+    
+    .about-block-content {
+        padding-left:0px;
+    }
+
+    .about-block {
+        width:100%;
+    }    
+    
+}
+
+@media (max-width: 1160px) {    
+    .about-image {
+        display: block;
+        float: none;
+        margin:auto;
+    }
+
+    .about-block-content {
+        text-align: center;
+    }
+    
+    .about-block-content {
+        padding-left:0px;
+    }
+
 }
