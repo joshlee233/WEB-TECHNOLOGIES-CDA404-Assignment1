@@ -135,7 +135,7 @@ What problems did you encounter along the way?
 The hamburger menu started off a little tricky trying to get it only to appear once the screen was a certain size using media queries. Media queries were the main problem, trying to figure out what needed to change when.
 
 ### How did you test your website/web-application on multiple devices, and what did you find out?
-I used google chrome inspect element to try my website out on different devices. By doing this I found out that my card group did not respond correcly to different screen sizes.
+I used google chrome inspect element to try my website out on different devices. By doing this I found out that my card group did not respond correctly to different screen sizes.
 I also used my mobile phone and computer to try out the website on the different devices.
 
 ### What informed your design choices?
