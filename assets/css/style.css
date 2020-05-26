@@ -358,6 +358,8 @@ footer img {
         display:none;
     }
     
+    
+    
 }
 
 
@@ -372,6 +374,15 @@ footer img {
     
     .card {
         margin:40px 0px;
+    }
+    
+    
+    .card {
+        margin:40px 0px;
+    }
+
+    .featured-block {
+        padding:0px 0px 0px 0px;
     }
     
 }
@@ -408,13 +419,6 @@ footer img {
         vertical-align: middle;
     }
 
-    .card {
-        margin:40px 0px;
-    }
-
-    .featured-block {
-        padding:0px 0px 0px 0px;
-    }
     
     .about-block-content {
         padding-left:0px;
