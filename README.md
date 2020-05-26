@@ -1,37 +1,10 @@
-## Welcome to GitHub Pages
+#Background
+###Why did I start this project?
+The background behind wanting to create this website was to help digitally brand myself online. This will help give me visibility to prospective customers and to potential employers. It can help to showcase my work and give some insight into my background, how and why I started web design and some information about my work.
 
-You can use the [editor on GitHub](https://github.com/joshlee233/WEB-TECHNOLOGIES-CDA404-Assignment1/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+The current issue is that I have no way of showing employers or customers projects I have and will work on in my time as a web developer and designer. Having this website will really help me kick start my career and show people what i'm capable of and what i have left to build on. It also provides a way for me to look back at previous projects I've worked on and improve on them or learn from my past.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+In this project I have chosen to do a desktop first approach. Although most people visit a website on their mobile device before a desktop, my website is for potential employers or customers looking for a website or someone to hire. Therefore showcasing my work on a desktop is most appropriate for this scenario as it enables for lots of projects to be displayed and more information than usual to be shown.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/joshlee233/WEB-TECHNOLOGIES-CDA404-Assignment1/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+#Wire Frames
+![Image of Desktop Homepage](readmeimg/desktophome.png)
