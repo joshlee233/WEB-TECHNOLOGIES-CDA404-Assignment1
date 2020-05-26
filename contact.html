@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Joshua Lee</title>
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="work.html">My Work</a></li>
+            <li><a class="selected" href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+    
+    <div class="hamburger-nav">
+      <ul><li class="hamburger"><img onClick="HBButton()" src="assets/img/hamburger.svg"></li></ul>
+       
+       <div id="ShowMenu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="work.html">My Work</a></li>
+            <li><a class="selected" href="contact.html">Contact Me</a></li>
+        </ul>
+       </div>
+    </div>
+    
+    <div class="header">
+        <div class="header-text"><h1>This page is for showcasing my projects and things I've worked on</h1></div>
+        <div class="header-graphic"></div>
+    </div>
+    
+    <h1 class="heading">Contact me</h1>
+    
+    
+    
+    <footer>
+       <p class="footer-text">follow me on</p>
+        <div class="social"><img class="footer-social" src="assets/img/linkedin.svg"><p class="footer-social"><a target="_blank" href="https://www.linkedin.com/in/joshlee-">Linkedin -></a></p></div>
+        <div class="social"><img class="footer-social" src="assets/img/facebook.svg"><p class="footer-social"><a target="_blank" href="https://www.facebook.com/profile.php?id=100012751263103">Facebook -></a></p></div>
+        <div class="social"><img class="footer-social" src="assets/img/mail.svg"><p class="footer-social"><a href="contact.html">Email me</a></p></div>
+        <p class="footer-text">Copyright @ Joshua Lee <span id="displaydate"></span></p>
+        <center><p class="privacypolicy"><a href="privacypolicy.html">Privacy Policy</a></p></center>
+    </footer>
+    
+    <script type="text/javascript">
+        var date = new Date();
+        var year = date.getFullYear();
+        document.getElementById("displaydate").innerHTML = year;
+        
+        function HBButton() {
+            var mc = document.getElementById("ShowMenu");
+            if (mc.style.display === "block") {
+                mc.style.display = "none";
+            } else {
+                mc.style.display = "block";
+            }
+        }
+        
+    </script>
+</body>
+</html>
