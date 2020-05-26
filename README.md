@@ -35,9 +35,9 @@ In this project I have chosen to do a desktop first approach. Although most peop
 Document the colour scheme you have used for your website and why this was chosen?
 The three colours I have chosen to use are below in the hex code format:
 
-#FFFFFF - White
-#0f0f0f - Gark gray
-#00C2FF - A form of greeny blue
+- #FFFFFF - White
+- #0f0f0f - Gark gray
+- #00C2FF - A form of greeny blue
 
 I've chosen to do a 60% 30% 10% rule for the website in terms of the colours used. I have done 60% white, 30% blue and 10% dark gray. This is to keep the website nice and simple which will help not to overwhelm the user with lots of different bright colours all at once.
 
