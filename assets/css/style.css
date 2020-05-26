@@ -265,6 +265,7 @@ footer img {
 
 .footer-text {
     padding:20px;
+    
 }
 
 .text-block {
@@ -281,9 +282,11 @@ footer img {
     padding:20px;
 }
 
-
-
-
+.privacypolicy {
+    padding:10px;
+    color:#ffffff;
+    text-decoration: none;
+}
 
 
 
