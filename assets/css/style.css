@@ -357,13 +357,13 @@ footer img {
 }
 
 
-@media (min-width: 800px) {
+@media (max-width: 800px) {
     .hamburger-nav {
-        display:none;
+        display:contents;
     }
     
     nav {
-        display:contents;
+        display:none;
     }
     
 }
@@ -379,9 +379,6 @@ footer img {
         display:contents;
     }
     
-}
-
-
 
 
 
