@@ -1,34 +1,103 @@
-Privacy policy for Josh Lee's portfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Joshua Lee</title>
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="work.html">My Work</a></li>
+            <li><a class="selected" href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+    
+    <div class="hamburger-nav">
+      <ul><li class="hamburger"><img onClick="HBButton()" src="assets/img/hamburger.svg"></li></ul>
+       
+       <div id="ShowMenu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="work.html">My Work</a></li>
+            <li><a class="selected" href="contact.html">Contact Me</a></li>
+        </ul>
+       </div>
+    </div>
+    
+    <div class="header">
+        <div class="header-text"><h1>This page is the websites privacy policy</h1></div>
+        <div class="header-graphic"></div>
+    </div>
+    
+    <h1 class="heading">Contact me</h1>
 
-Name of website owner/data processor: Joshua Lee
-Contact email address: contact@joshual.ee
+<div class="text-block">
+<p>Privacy policy for Josh Lee's portfolio</p>
+<br>
+<p>Name of website owner/data processor: Joshua Lee</p>
+<p>Contact email address: contact@joshual.ee</p>
+<br>
+<p>On the website the data that will be collected via the contact form is as below:</p>
+<br>
+<p>Full name - This will be obtained by the user entering their full name</p>
+<p>Email address - This will be obtained by the user entering their email address</p>
+<br>
+<p>Your data will be used for the purpose of getting in contact and replying to any messages sent to the website owner via the contact form on the website.</p>
+<br>
+<p>Your personal data will not be shared with anyone other than the website owner.</p>
+<br>
+<p>We will not directly store your data but your data will be received by our mail server and held in our mailing list. This data will be stored on a server in the UK (United Kingdom).</p>
+<br>
+<p>Your data will only be held for as long as necessary, this means that we will not use or hold your personal data after a year of inactivity.</p>
+<br>
+<p>Inactivity implies that no contact has been made from either party (website owner or contactee) within a year after the last email was sent.</p>
+<br><br>
+<p>Your individual rights from the GDPR website are below:</p>
 
-On the website the data that will be collected via the contact form is as below:
-
-Full name - This will be obtained by the user entering their full name
-Email address - This will be obtained by the user entering their email address
-
-Your data will be used for the purpose of getting in contact and replying to any messages sent to the website owner via the contact form on the website.
-
-Your personal data will not be shared with anyone other than the website owner.
-
-We will not directly store your data but your data will be received by our mail server and held in our mailing list. This data will be stored on a server in the UK (United Kingdom).
-
-Your data will only be held for as long as necessary, this means that we will not use or hold your personal data after a year of inactivity.
-
-Inactivity implies that no contact has been made from either party (website owner or contactee) within a year after the last email was sent.
-
-Your individual rights from the GDPR website are below:
-
-The right to be informed
-The right of access
-The right to rectification
-The right to erasure
-The right to restrict processing
-The right to data portability
-The right to object
-Rights in relation to automated decision making and profiling.
-
-Here is a link to the information commissioner's office detailing your individual rights:
-https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/
-
+<ol>
+    <li>The right to be informed</li>
+    <li>The right of access</li>
+    <li>The right to rectification</li>
+    <li>The right to erasure</li>
+    <li>The right to restrict processing</li>
+    <li>The right to data portability</li>
+    <li>The right to object</li>
+    <li>Rights in relation to automated decision making and profiling.</li>
+</ol>
+<br>
+<p>Here is a link to the information commissioner's office detailing your individual rights:</p>
+<a href="https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/">https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/</a>
+<br><br>
+<p>Any issue or queries please do not hesitate to get in touch!</p>
+</div>
+    <footer>
+       <p class="footer-text">follow me on</p>
+        <div class="social"><img class="footer-social" src="assets/img/linkedin.svg"><p class="footer-social"><a target="_blank" href="https://www.linkedin.com/in/joshlee-">Linkedin -></a></p></div>
+        <div class="social"><img class="footer-social" src="assets/img/facebook.svg"><p class="footer-social"><a target="_blank" href="https://www.facebook.com/profile.php?id=100012751263103">Facebook -></a></p></div>
+        <div class="social"><img class="footer-social" src="assets/img/mail.svg"><p class="footer-social"><a href="contact.html">Email me</a></p></div>
+        <p class="footer-text">Copyright @ Joshua Lee <span id="displaydate"></span></p>
+        <center><p class="privacypolicy"><a href="privacypolicy.html">Privacy Policy</a></p></center>
+    </footer>
+    
+    <script type="text/javascript">
+        var date = new Date();
+        var year = date.getFullYear();
+        document.getElementById("displaydate").innerHTML = year;
+        
+        function HBButton() {
+            var mc = document.getElementById("ShowMenu");
+            if (mc.style.display === "block") {
+                mc.style.display = "none";
+            } else {
+                mc.style.display = "block";
+            }
+        }
+        
+    </script>
+</body>
+</html>
