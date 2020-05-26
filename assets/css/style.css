@@ -417,6 +417,10 @@ footer img {
         width:100%;
     }
     
+    .card {
+    margin:0px 0px;
+}
+    
 }
 
 @media (max-width: 1160px) {    
@@ -435,3 +439,5 @@ footer img {
     }
 
 }
+    
+
