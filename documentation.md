@@ -142,3 +142,39 @@ I also used my mobile phone and computer to try out the website on the different
 Lots of different things informed my choices. The main way I made informed decisions and choices was via lots of extensive research on the task in hand. Looking at documentations or blocks of where people had done similar things before really helped me decide on what to do and the method of doing it. This helped me to also understand the way the task worked and what went on behind the scenes.
 
 Overall I believe the task was executed well and seemed to meet the needs of the user. Next time I would have spent more time on the media queries adding in more breakpoints and ensuring every aspect of the website is accessible on mobile as it is on desktop.
+
+### Reference list
+
+ANON., 2019a. GDPR.Eu [online] Available from: https://gdpr.eu/
+
+ANON., 2019b. Principle (e): Storage Limitation [online] Available from: https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/principles/storage-limitation/
+
+ANON., 2019c. How To Create a Contact Form with CSS [online] Available from: https://www.w3schools.com/howto/howto_css_contact_form.asp
+
+ANON., 2019d. Responsive Web Design Media Queries [online] Available from: https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+
+ANON., 2019e. What Is Personal Data? [online] Available from: https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/key-definitions/what-is-personal-data/
+
+ANON., 2019f. Individual Rights [online] Available from: https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/
+
+ANON., 2020a. Mastering Markdown · GitHub Guides [online] [viewed 26 May 2020]. Available from: https://guides.github.com/features/mastering-markdown/
+
+ANON., 2020b. A Privacy Policy If No Personal Data Is Collected [online] [viewed 26 May 2020]. Available from: https://www.freeprivacypolicy.com/blog/privacy-policy-no-personal-data-collected/
+
+ANON., 2020c. Minimum Font Size? [online] [viewed 26 May 2020]. Available from: https://accessibleweb.com/question-answer/minimum-font-size/
+
+ANON., n.d. Privacy Policy UK Template - Make Your Free GDPR Privacy Notice [online] Available from: https://www.rocketlawyer.com/gb/en/documents/privacy-policy
+
+BISCOE, C., 2020. How to Write a GDPR Data Privacy Notice – with Template Example [online] Available from: https://www.itgovernance.co.uk/blog/how-to-write-a-gdpr-privacy-notice-with-documentation-template-example
+
+GOVERNMENT DIGITAL SERVICE, 2012. Online and Distance Selling [online] Available from: https://www.gov.uk/online-and-distance-selling-for-businesses
+
+GRANT, C. and C. GRANT, 2018. GDPR and Website Contact Forms – Basic Steps You Need to Take [online] [viewed 26 May 2020]. Available from: https://obrienmedia.co.uk/blog/gdpr-and-website-contact-forms-basic-steps-you-need-to-take
+
+SAKAGUCHI, M., 2019. Umoxfo/Brackets-W3cvalidation [online] [viewed 26 May 2020]. Available from: https://github.com/Umoxfo/brackets-w3cvalidation
+
+SIMPER, K., 2018. Making and validating a working Contact Form with JavaScript. YouTube [online]. YouTube Video Available from: https://www.youtube.com/watch?v=eg4e-FObyJ8
+
+VEROU, L., 2020. Contrast Ratio: Easily Calculate Color Contrast Ratios. Passing WCAG Was Never This Easy! [online] [viewed 26 May 2020]. Available from: https://contrast-ratio.com/
+
+‌
