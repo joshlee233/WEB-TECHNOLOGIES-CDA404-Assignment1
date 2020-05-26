@@ -37,7 +37,7 @@
     <h1 class="heading">Contact me</h1>
     
     <div class="form-container">
-        <form action="action.php">
+        <form action="mailto:contact@joshual.ee" method="post" enctype="text/plain">
             <label for="Name">Full name</label>
             <input type="text" id="Name" name="Name" placeholder="Full name">
             
@@ -50,7 +50,10 @@
             <label for="EmailMessage">Email message</label>
             <textarea id="EmailMessage" name="EmailMessage" placeholder="Email message"></textarea>
             
-            <input id="SubmitButton" type="submit" value="Submit">
+            <label id="checkbox-text" for="checkbox">By checking the checkbox you are agreeing to our <a href="privacypolicy.html">privacy policy</a>.</label>
+            <input id="checkbox" type="checkbox" onclick="privacy_checkbox(this)">
+            
+            <input onclick="message()" id="SubmitButton" type="submit" value="Submit" disabled>
         </form>
         
     </div>
@@ -76,6 +79,22 @@
             } else {
                 mc.style.display = "block";
             }
+        }
+        
+        function privacy_checkbox(PrivacyCheckBox) {
+            if (PrivacyCheckBox.checked) {
+                document.getElementById("SubmitButton").disabled = false;
+                document.getElementById("SubmitButton").style.background = "#00C2FF";
+                document.getElementById("SubmitButton").style.cursor = "pointer";
+            } else {
+                document.getElementById("SubmitButton").disabled = true;
+                document.getElementById("SubmitButton").style.background = "lightgray";
+                document.getElementById("SubmitButton").style.cursor = "not-allowed";
+            }
+        }
+        
+        function message() {
+            alert("Thank you for getting in contact with me, I will try to respond as soon as possible! Please follow the next steps in order to send the email.")
         }
         
     </script>
