@@ -139,3 +139,6 @@ I used google chrome inspect element to try my website out on different devices.
 I also used my mobile phone and computer to try out the website on the different devices.
 
 ### What informed your design choices?
+Lots of different things informed my choices. The main way I made informed decisions and choices was via lots of extensive research on the task in hand. Looking at documentations or blocks of where people had done similar things before really helped me decide on what to do and the method of doing it. This helped me to also understand the way the task worked and what went on behind the scenes.
+
+Overall I believe the task was executed well and seemed to meet the needs of the user. Next time I would have spend more time on the media queries adding in more break points and ensuring every aspect of the website is accessible on mobile as it is on desktop.
