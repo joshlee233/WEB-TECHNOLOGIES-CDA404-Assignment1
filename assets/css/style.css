@@ -4,6 +4,10 @@
     font-family: 'Raleway', sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 nav {
     width:100%;
     padding:0;
@@ -424,7 +428,8 @@ footer img {
     .featured-block {
         width:100%%;
         padding:0px;
-        margin:0;
+        padding-bottom:50px;
+        margin:auto;
     }
 
     .card-group {
