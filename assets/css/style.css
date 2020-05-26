@@ -305,7 +305,9 @@ footer img {
     padding:10px;
     border: 2px solid #00C2FF;
     border-radius: 5px;
-    display: block;s
+    display: block;
+    width:100%;
+    font-size: 1em;
 }
 
 .form-container textarea {
@@ -314,6 +316,7 @@ footer img {
     border-radius: 5px;
     margin:10px;
     display: block;
+    width:100%;
 }
 
 #EmailMessage {
@@ -323,11 +326,15 @@ footer img {
 #SubmitButton {
     font-size:1em;
     color:white;
-    background-color:#00C2FF;
+    background-color:lightgray;
 }
 
 #SubmitButton:hover {
-    cursor: pointer;
+    cursor:not-allowed;
+}
+
+#checkbox-text {
+    padding:20px 0px 20px 0px;
 }
 
 
