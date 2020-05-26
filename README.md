@@ -13,15 +13,21 @@ In this project I have chosen to do a desktop first approach. Although most peop
 ### Desktop wireframes
 
 ![wireframe of Desktop Homepage page](readmeimg/desktophome.png)
+#
 ![wireframe of Desktop about me page](readmeimg/desktopabout.png)
+#
 ![wireframe of Desktop my work page](readmeimg/desktopwork.png)
+#
 ![wireframe of Desktop contact me page](readmeimg/desktopcontact.png)
 
 ### Mobile wireframes
 
 ![wireframe of mobile Homepage](readmeimg/mobilehome.png)
+#
 ![wireframe of mobile about me page](readmeimg/mobileabout.png)
+#
 ![wireframe of mobile my work page](readmeimg/mobilework.png)
+#
 ![wireframe of mobile contact me page](readmeimg/mobilecontact.png)
 
 # Colour Choices
