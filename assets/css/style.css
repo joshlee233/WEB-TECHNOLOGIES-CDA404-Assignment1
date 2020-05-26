@@ -141,8 +141,8 @@ nav ul li a:hover {
 
 .about-block {
     width:60%;
-    color:black;
     margin:auto;
+    color:#0f0f0f;
 }
 
 .about-image {
@@ -194,7 +194,7 @@ nav ul li a:hover {
 .featured-block {
     width:80%;
     margin:auto;
-    padding:0px 0px 50px 0px ;
+    padding:0px 0px 50px 0px;
 }
 
 .card-group {
@@ -275,6 +275,7 @@ footer img {
     margin:auto;
     padding:50px;
     font-size: 1.2em;
+    color:#0f0f0f;
 }
 
 #experiance-pad {
@@ -286,6 +287,7 @@ footer img {
     padding:10px;
     color:#ffffff;
     text-decoration: none;
+    color:#0f0f0f;
 }
 
 
@@ -297,6 +299,7 @@ footer img {
 
 .form-container label {
     display: block;
+    color:#0f0f0f;
 }
 
 .form-container input {
@@ -308,6 +311,7 @@ footer img {
     display: block;
     width:100%;
     font-size: 1em;
+    color:#0f0f0f;
 }
 
 .form-container textarea {
